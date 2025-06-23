@@ -14,12 +14,16 @@ The goal was to design an inexpensive, reproducible platform that can climb a 45
 
 Bidirectional 2.4 GHz link
 - nRF24L01+ @ 250 kb s⁻¹, custom packet (4 bytes) without auto‑ack.
+
 Proportional throttle & steering
 - Maps joystick X/Y to motor PWM (0‑255) with dead‑zone and acceleration ramp.
+
 Low‑voltage cut‑off
 - Protects Li‑Ion pack; flashes LED and disables motors below 6.4 V.
+
 Modular code
 - Separate sketches /transmitter and /receiver; no external RTOS.
+
 Diagnostics
 - Serial.print() telemetry and radio.printDetails() for both nodes.
 
