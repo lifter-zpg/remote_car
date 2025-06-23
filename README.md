@@ -1,6 +1,6 @@
-Remote‑Controlled Mini Car
+# Remote‑Controlled Mini Car
 
-1· Project Overview
+## 1· Project Overview
 
 This repository documents the Remote‑Controlled Mini Car – a palm‑sized rover driven by two DC gearmotors and controlled over a 2.4 GHz link built with nRF24L01+ modules.  The system consists of:
 
@@ -10,7 +10,7 @@ Receiver (car) – Arduino Nano that decodes packets, drives a dual H‑bridge
 
 The goal was to design an inexpensive, reproducible platform that can climb a 45 ° ramp while weighing under 200 g.
 
-2· Features
+## 2· Features
 Bidirectional 2.4 GHz link
 nRF24L01+ @ 250 kb s⁻¹, custom packet (4 bytes) without auto‑ack.
 
@@ -26,7 +26,7 @@ Separate sketches /transmitter and /receiver; no external RTOS.
 Diagnostics
 Serial.print() telemetry and radio.printDetails() for both nodes.
 
-3· Hardware Bill of Materials
+## 3· Hardware Bill of Materials
 
 3.1 Transmitter
 1 × Arduino Uno R3 (or clone)
@@ -42,7 +42,7 @@ Assorted wires
 1 × nRF24L01+ module + AMS1117‑3.3 V regulator + 10 µF cap
 2 × 14500 Li‑Ion cells in series (≈ 7.4 V) or 2S Li‑Po 450 mAh
 
-4· Future Work
+## 4· Future Work
 
 Auto‑ack and packet counter for lost‑frame detection.
 Gyro‑‑based stability and closed‑loop speed control.
