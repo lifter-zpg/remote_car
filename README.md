@@ -29,10 +29,15 @@ Serial.print() telemetry and radio.printDetails() for both nodes.
 ## 3· Hardware Bill of Materials
 
 3.1 Transmitter
+
 1 × Arduino Uno R3 (or clone)
+
 1 × XY joystick (10 kΩ)
+
 1 × nRF24L01+ module + 10 µF capacitor
+
 1 × PP3 9 V battery + step‑down to 5 V (or USB power‑bank)
+
 Assorted wires
 
 3.2 Receiver / Rover
